@@ -18,7 +18,7 @@ const googleAuth = async (req, res = response, next) => {
   }
 
   //TODO: save user on DB
-
+  console.log("==============  PAYLOAD ==============");
   console.log(googleUser);
 
   res.json({
